@@ -1,0 +1,7 @@
+
+State Machine - |ubicacion|orientacion:inst1|state
+Name state.O state.E state.S state.N 
+state.N 0 0 0 0 
+state.S 0 0 1 1 
+state.E 0 1 0 1 
+state.O 1 0 0 1 

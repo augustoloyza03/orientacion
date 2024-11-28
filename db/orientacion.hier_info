@@ -1,0 +1,53 @@
+|ubicacion
+o0 <= orientacion:inst1.o0
+clock => orientacion:inst1.clk
+Gder => orientacion:inst1.gd
+Gizq => orientacion:inst1.gi
+reset => orientacion:inst1.reset
+reset => SumaoResta:inst.reset
+o1 <= orientacion:inst1.o1
+p0 <= SumaoResta:inst.p0
+S => SumaoResta:inst.S
+p1 <= SumaoResta:inst.p1
+p2 <= SumaoResta:inst.p2
+p3 <= SumaoResta:inst.p3
+
+
+|ubicacion|orientacion:inst1
+clk => state~1.DATAIN
+gd => Mux0.IN5
+gd => Mux1.IN5
+gd => Mux2.IN5
+gd => Mux3.IN5
+gi => Mux0.IN4
+gi => Mux1.IN4
+gi => Mux2.IN4
+gi => Mux3.IN4
+reset => state~3.DATAIN
+o0 <= o0.DB_MAX_OUTPUT_PORT_TYPE
+o1 <= o1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ubicacion|SumaoResta:inst
+o0 => Mux0.IN5
+o0 => Mux1.IN5
+o0 => Mux2.IN5
+o0 => Mux3.IN5
+o1 => Mux0.IN4
+o1 => Mux1.IN4
+o1 => Mux2.IN4
+o1 => Mux3.IN4
+S => a[0].CLK
+S => a[1].CLK
+S => a[2].CLK
+S => a[3].CLK
+reset => a[0].ACLR
+reset => a[1].ACLR
+reset => a[2].ACLR
+reset => a[3].ACLR
+p0 <= a[0].DB_MAX_OUTPUT_PORT_TYPE
+p1 <= a[1].DB_MAX_OUTPUT_PORT_TYPE
+p2 <= a[2].DB_MAX_OUTPUT_PORT_TYPE
+p3 <= a[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\Users\Administrador\Documents\GitHub\orientacion\simulation\qsim
+vubicacion
+Z1 !s100 6e89X<=4=]9K0gnR><_F`1
+Z2 I9zQzk619l70WUOgcRbTA_2
+Z3 VEOoD:d6Y=DM;c8D3A<h=a1
+Z4 dF:\Users\Administrador\Documents\GitHub\orientacion\simulation\qsim
+Z5 w1732739650
+Z6 8orientacion.vo
+Z7 Forientacion.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|orientacion.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1732739653.388000
+Z12 !s107 orientacion.vo|
+!s101 -O0
+vubicacion_vlg_check_tst
+!i10b 1
+Z13 !s100 i<k;<8QIihWmTRcWV_leL2
+Z14 Ib^YOYeo8fM<KR3;HY6mh>1
+Z15 VDIZ=LI?oK60M98kWl=XdN1
+R4
+Z16 w1732739649
+Z17 8orientacion.vt
+Z18 Forientacion.vt
+L0 65
+R8
+r1
+!s85 0
+31
+Z19 !s108 1732739653.731000
+Z20 !s107 orientacion.vt|
+Z21 !s90 -work|work|orientacion.vt|
+!s101 -O0
+R10
+vubicacion_vlg_sample_tst
+!i10b 1
+Z22 !s100 Kdg>[kacSfiAX[n_BH0g<3
+Z23 I4EgjPN?U<dV?i`dzF?7Lc0
+Z24 V4`9jQFfBUK^niE8c@6`5]2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vubicacion_vlg_vec_tst
+!i10b 1
+!s100 [Dcc:h@n`G?M1AO[:K_M40
+Iedc237H:mcbbFE6;@Q=S@1
+Z25 VOdCGoY;58gEHJok_oSKaF0
+R4
+R16
+R17
+R18
+Z26 L0 295
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
